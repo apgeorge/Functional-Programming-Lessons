@@ -1,0 +1,101 @@
+Functions as values.
+QSort.
+higher abstraction.
+
+A functional language is usefull only in a scenarios which requite concurrency?
+In Academia?
+
+Day 1:
+We are going to try and figure why we should care about FP.
+
+What is wrong with an imperative style code ?
+
+What is FP all about?
+1. Functions!! 
+2. No assignments. Immutable variables. No side-effects. 
+3. Effect on 2 on Function call...it can only calculate a result.
+4. So what? Lesser bugs. More readable code (Points e.g.). Order of execution? No flow of control. (merge e.g, talk abt expressions)
+No deadlocks, thread safe.
+5. What is referential transparency?
+6. More tractable mathematically.
+7. A function that prints to console and returns a value..is it referentially transparent? Why?
+8. Expression oriented than statement oriented.
+
+Are the reasons above justified enough to invest in FP?
+
+E.g of Chair..two ways it can be made. Carved out of a single block of wood.
+Or composed of legs, seat, back etc...Which is the better way?
+But joining things together requires good glue.
+
+Why do we do OO?
+
+Answers to both:
+Modularity.
+
+Sum example...
+
+FP allows us to modularize programs in new and exciting ways!
+
+
+1. Write a function that can take a list of numbers and return the
+even numbers in them. Write a test to print out the returned even numbers.
+or
+What does this program do?
+
+
+1. What is problem with this piece of code?
+It goes about specifying the step-by step execution of the code.
+
+
+Points:
+1. How do you generate a sequence of 100 numbers.
+2. How readable is the code?
+3. Is it declarative?
+4. How do you print the list of numbers? What are the different
+ways of printing a list? Which is better more functional?
+5. Does the list get modified? Is it mutable?
+6. What common methods have been abstracted?
+7. What kind of function is the filter/where method?
+8. Are these statements or expressions?
+9. Why do fn languages have only expressions?
+10. What are the differences between the c# and f# version.
+a. What vs How.
+b. functions are first class citizens
+c. What are such functions called?
+
+
+2.  Write a function that returns the sum of numbers.
+ Write a function that returns a sum of squares. 
+ Write a function that returns a sum of cubes. 
+
+
+Points:
+1. Is the code DRY? How can we make the code more generic?
+2. What is the code tightly coupled to?. 
+3. What is the function abstracting? What is the functional term? (Map)
+
+
+
+3.Expression-Oriented vs Statement-Oriented
+
+4. Points
+What is the result of this test? Will it pass or fail?
+Does the code convey if the point is mutable or not?
+Immutability is a key feature and helps make code more readable
+Why FL requires things to be immutable?
+same output given a set of input.?? datetime??
+
+5. MergeLists
+Does the order of execution matter in a fn language?
+Can the compiler actually help us catch programming errors?
+Does this make things easier to parallelize?
+Can independent code be easily identified?
+
+Day 2:
+What makes a Functional Language?
+1. Functions are first class citizens. No need to wrap them in a class.
+2. Powerful, built-in data structures.
+
+
+Day 3:
+OO design patterns become transparent in F#/FL.
